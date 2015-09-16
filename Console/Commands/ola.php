@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Eduardober\Ola;
 
 use Illuminate\Console\Command;
 
-class ola extends Command
+class Ola extends Command
 {
     /**
      * The name and signature of the console command.
@@ -38,15 +38,5 @@ class ola extends Command
     public function handle()
     {
         $this->info('Ola para voce');
-    }
-
-    public function getArguments()
-    {
-        return [];
-    }
-
-    public function getOptions()
-    {
-        return [];
     }
 }
