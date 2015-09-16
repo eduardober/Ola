@@ -1,7 +1,7 @@
 {
-	"name":"WDS/ola",
-	"description":"ola",
-	"artisan-plugin",
+	"name": "WDS/ola",
+	"description": "ola",
+	"type": "artisan-plugin",
 	"version": "1.0",
 	"authors": [
 	   {
@@ -16,7 +16,7 @@
 	"minimum-stability": "dev",
 	"autoload": {
 	   "psr-4":{
-		"WDS\\Ola\\":["src/WDS/Ola"]
+		"Eduardober\\Ola\\": "Console/Commands"
 	   }
 	}
 }
