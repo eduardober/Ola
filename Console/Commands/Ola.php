@@ -1,6 +1,6 @@
 <?php
 
-namespace Eduardober\Ola;
+namespace Eduardober\Ola\Console\Commands;
 
 use Illuminate\Console\Command;
 
